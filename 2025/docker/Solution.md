@@ -125,3 +125,18 @@ A persistent storage mechanism for saving data across container restarts.
 A networking feature that allows containers to talk to each other or external services.
 
  Interaction: Containers use Docker networks to communicate securely.
+
+
+***Task 4:***
+
+
+A multi-stage build is a Docker technique that allows you to use multiple FROM statements in a Dockerfile to create an optimized final image. It helps in building an application in one stage and copying only the necessary files to the final stage, reducing image size.
+
+Reduces Image Size:
+Only the essential files are included in the final image.
+Unnecessary build dependencies and tools are discarded.
+
+
+Improves Security:
+Removes sensitive files (e.g., API keys, build tools) from the final image.
+Reduces attack surface by keeping the image lightweight.
