@@ -140,3 +140,14 @@ Unnecessary build dependencies and tools are discarded.
 Improves Security:
 Removes sensitive files (e.g., API keys, build tools) from the final image.
 Reduces attack surface by keeping the image lightweight.
+
+
+***Task 6:***
+
+
+**Why are Docker Volumes Useful?**
+
+ Data Persistence – Prevents data loss when containers stop or restart.
+ Easy Backup & Recovery – Volumes are stored separately, making them easy to back up.
+ Container Independence – Multiple containers can share the same volume, ensuring data consistency.
+ Improved Performance – Volumes are optimized for Docker and work faster than bind mounts.
